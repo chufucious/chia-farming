@@ -1,0 +1,3 @@
+. ./activate
+chia start farmer &
+exit 0
