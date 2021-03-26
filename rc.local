@@ -1,3 +1,2 @@
-. ./activate
-chia start farmer &
+chia-blockchain/venv/bin/chia start farmer &
 exit 0
