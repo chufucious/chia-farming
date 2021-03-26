@@ -1,2 +1,4 @@
+#!/bin/sh -e
+
 chia-blockchain/venv/bin/chia start farmer &
 exit 0
