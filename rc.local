@@ -1,4 +1,12 @@
-#!/bin/sh -e
+#!/bin/bash
 
-chia-blockchain/venv/bin/chia start farmer &
+# Set user to pi
+su - pi
+
+# Error logging
+exec > /tmp/rc-local.out 2>&1;set -x
+
+# Start farmin'
+/home/pi/chia-blockchain/venv/bin/chia start farmer
+
 exit 0
