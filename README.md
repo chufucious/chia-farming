@@ -29,3 +29,6 @@ How to set up an RPi with Raspbian headless.
 * `passwd`
 
 ### Install chia-blockchain
+
+### Mount external drives
+* Create mount point
