@@ -1,6 +1,9 @@
 # chia-farming
 
-How to set up an RPi with Raspbian headless.
+How I set up a my headless Raspberry Pi 4 "RPi" with Raspbian.
+
+## Install Raspbian onto RPi
+Link
 
 ## Set up RPi to connect to wifi
 
