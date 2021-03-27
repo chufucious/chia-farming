@@ -36,3 +36,4 @@ Link
 
 ### Mount external drives
 * Create mount point
+* https://www.raspberrypi.org/documentation/configuration/external-storage.md
