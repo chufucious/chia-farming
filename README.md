@@ -1,6 +1,6 @@
 # chia-farming
 
-How I set up a my headless Raspberry Pi 4 "RPi" with Raspbian.
+How I set up a my headless Raspberry Pi 4 "RPi" to farm Chia.
 
 ## Install Raspbian onto RPi
 Link
