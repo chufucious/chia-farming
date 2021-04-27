@@ -37,3 +37,13 @@ Link
 ### Mount external drives
 * Create mount point
 * https://www.raspberrypi.org/documentation/configuration/external-storage.md
+
+
+
+
+### Chiadog
+
+
+* set up reboot on network interruption https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
+* start chia farm on boot https://weworkweplay.com/play/raspberry-pi-nodejs/
+* start chiadog on boot
