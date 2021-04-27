@@ -22,18 +22,24 @@ Link
 * Put rc.local into /etc/rc.local
 * Make it executable `sudo chmod +x /etc/rc.local`
 
+### Power up the Pi!
+
+### Find its ip
+`ping raspberrypi.local`
+
 ### Log into pi
-* `ssh pi@<nameofdevice>.local`
+* `ssh pi@<ip>`
 * password is `raspberry`
+
+### Change password
+* Default password is `raspberry`.
+* `passwd`
 
 ### Change RPi's name
 * Update your RPi's name from `raspberrypi` to whatever you'd like.
 * Do it here `sudo nano /etc/hostname`
 * and here `sudo nano /etc/hosts`
-
-### Change password
-* Default password is `raspberry`.
-* `passwd`
+* Reboot to have it take effect `sudo reboot`
 
 ### Install chia-blockchain
 * https://github.com/Chia-Network/chia-blockchain/wiki/Raspberry-Pi
