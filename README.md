@@ -18,10 +18,6 @@ Link
 * Edit `wpa_supplicant.conf` and put in two letter country code, network name, and password.
 * Put `wpa_supplicant.conf` into boot folder. Upon reboot, the RPi will connect to the network.
 
-### Make sure it farms after reboot (just in case)
-* Put rc.local into /etc/rc.local
-* Make it executable `sudo chmod +x /etc/rc.local`
-
 ### Power up the Pi!
 
 ### Find its ip
@@ -49,12 +45,12 @@ Link
 * https://www.raspberrypi.org/documentation/configuration/external-storage.md
 
 
-### Chiadog
+### TODO: Set up Chiadog
 * Update Python https://linuxize.com/post/how-to-install-python-3-7-on-debian-9/
 * Update Pip
 * Make sure Requirements installed https://github.com/martomi/chiadog/blob/main/requirements.txt
 
-### Robustness
+### TODO: Robustness
 * set up reboot on network interruption https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
 * start chia farm on boot https://weworkweplay.com/play/raspberry-pi-nodejs/
 * start chiadog on boot
