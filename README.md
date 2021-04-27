@@ -39,11 +39,12 @@ Link
 * https://www.raspberrypi.org/documentation/configuration/external-storage.md
 
 
-
-
 ### Chiadog
+* Update Python https://linuxize.com/post/how-to-install-python-3-7-on-debian-9/
+* Update Pip
+* Make sure Requirements installed https://github.com/martomi/chiadog/blob/main/requirements.txt
 
-
+### Robustness
 * set up reboot on network interruption https://weworkweplay.com/play/rebooting-the-raspberry-pi-when-it-loses-wireless-connection-wifi/
 * start chia farm on boot https://weworkweplay.com/play/raspberry-pi-nodejs/
 * start chiadog on boot
