@@ -42,6 +42,11 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=275370
 * Create mount point
 * https://www.raspberrypi.org/documentation/configuration/external-storage.md
 
+### Copy Chia blockchain 
+`~/.chia/mainnet/db`
+`rsync ~/.chia/mainnet/db/* pi@192.168.56.100:~/.chia/mainnet/db`
+
+
 
 ### TODO: Set up Chiadog
 * Update Python https://linuxize.com/post/how-to-install-python-3-7-on-debian-9/
