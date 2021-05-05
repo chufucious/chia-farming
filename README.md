@@ -43,8 +43,7 @@ https://www.raspberrypi.org/forums/viewtopic.php?t=275370
 * https://www.raspberrypi.org/documentation/configuration/external-storage.md
 
 ### Copy Chia blockchain 
-`~/.chia/mainnet/db`
-`rsync ~/.chia/mainnet/db/* pi@192.168.56.100:~/.chia/mainnet/db`
+`rsync -P ~/.chia/mainnet/db/* pi@192.168.56.100:~/.chia/mainnet/db`
 
 
 
