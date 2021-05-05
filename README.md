@@ -5,9 +5,7 @@ How I set up a my headless Raspberry Pi 4 "RPi" to farm Chia.
 ## Install Raspbian onto RPi
 Link
 
-### Update!
-`sudo apt update`
-`sudo apt upgrade`
+https://www.raspberrypi.org/forums/viewtopic.php?t=275370
 
 ## Set up RPi to connect to wifi
 
